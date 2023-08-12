@@ -3,4 +3,4 @@ function getLongText() {
     ("Lorem Ipsum is simply dummy text of the printing and typesetting industry.");
   }
   
-  console.log(getLongText()); //undefined
+  console.log(getLongText()); //undefined เพราะไม่ได้ระบุparamiter

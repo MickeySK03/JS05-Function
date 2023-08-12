@@ -1,8 +1,7 @@
 
-function max(a,b,c,d){
-    if(a,b,c,d ===null||a,b,c,d ==='')
-    return NaN;
-    else if (a>b&&a>c&&a>>d){
+function max(a=0,b=0,c=0,d=0){
+
+    if (a>b&&a>c&&a>>d){
         return a;
     }
     else if (b>a&&b>c&&b>d){
@@ -14,10 +13,13 @@ function max(a,b,c,d){
     else if (d>a&&d>b&&d>c){
         return d;
     }
+    else {return NaN;}
     }
 
 
 
-// console.log(max());
-// console.log(max(3,1));
-console.log(max(4,5,1,8));
+
+console.log(max());
+console.log(max(2));
+console.log(max(3,1));
+console.log(max(7,3,9,2));
