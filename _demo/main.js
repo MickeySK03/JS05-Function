@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // function soundOfBird() {    
 //     console.log('เสียง นกกรงหัวจุกมันริก');
 //     console.log('จุก');
@@ -79,3 +80,10 @@ const minus = function (x,y) {
     user.age += 1;
     log(user.village);
     //container = value + 1
+=======
+function sayHelloWorld (){
+    alert("Hello World")
+}
+
+sayHelloWorld()
+>>>>>>> refs/remotes/origin/main

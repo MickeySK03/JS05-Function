@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 //design FN
 //1-input ? => umber ที่ใช้เช็ค
@@ -18,3 +19,17 @@ function checkPrime(num) {
 
 checkPrime(7);
 checkPrime(8);
+=======
+function isPrime(num){
+    if(num > 1){
+        for(let i=2; i<=Math.sqrt(num); i++){
+            if(num%i===0) return "Not prime number"
+        }
+        return "Prime number"
+    } else {
+        return "Not prime number"
+    }
+}
+
+console.log(isPrime(19))
+>>>>>>> refs/remotes/origin/main

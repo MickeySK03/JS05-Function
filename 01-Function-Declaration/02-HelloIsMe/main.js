@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let userName = prompt("enter a user");
 
 function sayHelloUser() {
@@ -5,3 +6,12 @@ function sayHelloUser() {
 }
 
 sayHelloUser(userName);
+=======
+let user = prompt("Enter your name")
+
+function sayHelloUser(){
+    alert(`Hello ${user}`)
+}
+
+sayHelloUser()
+>>>>>>> refs/remotes/origin/main
