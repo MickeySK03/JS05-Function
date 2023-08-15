@@ -11,4 +11,5 @@
 //     console.log(message);
 // }
 
-let message = 'hi';
+// let message = 'hi';
+

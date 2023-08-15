@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // function soundOfBird() {    
 //     console.log('เสียง นกกรงหัวจุกมันริก');
 //     console.log('จุก');
@@ -10,7 +9,7 @@
 
 
 // function isPrime() {
-//     let n=5;
+//     let n=11;
 //     let isPrime = true; //flag
 //     for(let divider = 2; divider <n; divider++) {
 //         //divider 2,3,4,5,...,n-1
@@ -18,8 +17,9 @@
 //         isPrime = false;
 //         break;
 // }
-//     }
-// }if(isPrime = true) console.log(n);
+// }
+// }
+// if(isPrime = true) console.log(isPrime);
 
 
 
@@ -80,10 +80,3 @@ const minus = function (x,y) {
     user.age += 1;
     log(user.village);
     //container = value + 1
-=======
-function sayHelloWorld (){
-    alert("Hello World")
-}
-
-sayHelloWorld()
->>>>>>> refs/remotes/origin/main

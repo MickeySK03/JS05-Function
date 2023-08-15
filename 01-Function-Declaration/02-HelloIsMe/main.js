@@ -1,9 +1,9 @@
 
-let userName = prompt("enter a user");
+// let userName = prompt("enter a user");
 
-function sayHelloUser() {
-    alert(`Hello ${userName}`);    
-}
+// function sayHelloUser() {
+//     alert(`Hello ${userName}`);    
+// }
 
 
 
